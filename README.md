@@ -18,28 +18,40 @@ This project utilizes a Streamlit dashboard to analyze and visualize the sentime
 
 ## Project Structure
 - `app.py`: The main Python file with Streamlit code that runs the dashboard.
-- `Tweets.csv`: The dataset used in this project, containing tweets about US airlines.
+- `Tweets.csv`: The dataset used in this project, contains tweets about US airlines.
 
-## Installation
-To run this project locally, you need to have Python installed on your machine. You can then follow these steps:
+## Getting Started
 
-1. Clone this repository to your local machine using:
-git clone https://github.com/Arya12Singh/StreamlitAirlineSentiment.git
+To run the Airline Tweet Sentiment Dashboard locally, follow these steps:
 
-2. Navigate to the project directory:
-cd StreamlitAirlineSentiment
+1. **Install Python and Required Libraries**:
+   - Ensure Python is installed on your system. If not, download it from [python.org](https://www.python.org/downloads/).
+   - Install Streamlit, Pandas, Plotly, WordCloud, Matplotlib, and other necessary libraries. You can install all required libraries using pip:
+     ```
+     pip install -r requirements.txt
+     ```
 
-3. Install the required Python libraries:
-pip install -r requirements.txt
+2. **Clone This Repository**:
+   - Use Git to clone the repository to your local machine:
+     ```
+     git clone https://github.com/Arya12Singh/AirlineTweetSentimentDash.git
+     ```
 
-## Running the Application
-Execute the following command in the terminal:
-streamlit run app.py
+3. **Navigate to the Project Directory**:
+   - Change your directory to the cloned repository:
+     ```
+     cd AirlineTweetSentimentDash
+     ```
 
-This will start the Streamlit server, and the dashboard should open in your default web browser.
+4. **Run the Application**:
+   - Start the dashboard using Streamlit by running the following command in your terminal:
+     ```
+     streamlit run app.py
+     ```
+   - This will start the Streamlit server, and the dashboard should automatically open in your default web browser.
 
-## Contributing
-Contributions to this project are welcome! Please fork this repository and submit a pull request with your proposed changes.
+By following these steps, you will be able to set up and run the Airline Tweet Sentiment Dashboard on your local environment. This allows you to interact with the sentiment analysis visualizations and explore the data.
+
 
 ## License
 This project is open-source and available under the MIT License.
