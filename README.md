@@ -52,6 +52,7 @@ To run the Airline Tweet Sentiment Dashboard locally, follow these steps:
 
 By following these steps, you will be able to set up and run the Airline Tweet Sentiment Dashboard on your local environment. This allows you to interact with the sentiment analysis visualizations and explore the data.
 
+For a more detailed version of the project, check my blog https://aryasingh.hashnode.dev/harnessing-twitter-sentiment-analysis-for-us-airlines-a-streamlit-dashboard-exploration/
 
 ## License
 This project is open-source and available under the MIT License.
